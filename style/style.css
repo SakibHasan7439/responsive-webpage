@@ -10,24 +10,18 @@
     margin-bottom: 1rem;
 }
 
-.developer-image img {
-    width: 100%;
-}
-
-.dev-image-1 {
-    background-image: url("../shapes/Group\ 33086.png");
-    background-position: center;
-    background-size:cover;
-    width: 100%;
-    height: 400px;
-    z-index: -1;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 4.3rem;
-}
-
 .download-icon {
     color: #ffffff;
+}
+
+.work-inquiry-box {
+    width: calc(100% - 1.2rem);
+    background-image: url("../shapes/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1.2rem;
+    text-align: center;
 }
 
 @media screen and (max-width: 576px) {
@@ -52,6 +46,10 @@
     }
 
     .developer-image{
+        width: 100%;
+    }
+
+    .developer-image img {
         width: 100%;
     }
 
@@ -142,16 +140,6 @@
         margin-bottom: 4rem;
     }
 
-    .work-inquiry-box {
-        width: calc(100% - 1.2rem);
-        background-image: url("../shapes/Group_33094_1.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding: 1.2rem;
-        text-align: center;
-    }
-
     .inquiry {
         font-family: "Bebas Neue", sans-serif;
         color: #ffffff;
@@ -161,6 +149,10 @@
         text-align: center;
         font-weight: 300;
         font-family: "Bebas Neue", sans-serif;
+    }
+    
+    .project-img {
+        width: 100%;
     }
 
     .footer-text h4 {
@@ -179,5 +171,177 @@
 
     .icon-width {
         width: 33%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    nav {
+        text-align: right;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+
+    nav a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .developer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .developer-image {
+        width: 50%;
+    }
+
+    .developer-image img {
+        width: 100%;
+    }
+
+    .developer-image-2 {
+        width: 50%;
+    }
+
+    .developer-image-2 img {
+        width: 100%;
+    }
+
+    .developer-intro {
+        width: 50%;
+    }
+
+    .developer-intro .title{
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    .span {
+        display: block;
+        color: rgb(255, 131, 103);
+    }
+
+    .developer-intro .description {
+        font-size: 1rem;
+        font-family: roboto;
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+
+    .primary-btn {
+        background-color: rgb(255, 131, 103);
+        color: #ffffff;
+        padding: 1rem 2.4rem;
+        border: none;
+        border-radius: 4px;
+        font-size: 1.2rem;
+    }
+
+    .about-developer {
+        width: 50%;
+        text-align: center;
+    }
+
+    .developer {
+        margin-bottom: 8rem;
+    }
+
+    .about-developer .title {
+        font-size: 2.3rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+    }
+
+    .about-developer .description {
+        font-family: roboto;
+        width: 65%;
+        margin-bottom: 2rem;
+        margin-left: 30%;
+        text-align: justify;
+    }
+
+    .project1-img {
+        width: 100%;
+    }
+
+    .project-img {
+        width: 100%;
+    }
+
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 0.3rem;
+        font-family: "Bebas Neue", sans-serif;
+    }
+
+    .project-subtitle {
+        width: 80%;
+        font-family: sans-serif;
+    }
+
+    .projects {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding: 15px;
+    }
+
+    .work-inquiry-box {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 6rem;
+        padding: 2.2rem 0.6rem;
+        border-radius: 30px;
+    }
+    
+    .inquiry {
+        font-size: 2rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .footer-text h4 {
+        font-size: 21px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 500;
+    }
+
+    .footer-text h3 {
+        font-size: 24px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 800;
+        text-transform: lowercase;
+    }
+
+    .icon ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .icon-width{
+        width: 60px;
     }
 }
